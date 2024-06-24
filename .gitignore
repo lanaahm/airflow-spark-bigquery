@@ -1,0 +1,10 @@
+.idea
+.ipynb_checkpoints
+.venv
+logs
+__pycache__
+notebooks
+jobs
+spark.py
+
+project-mart-427214-fa427024edf2.json

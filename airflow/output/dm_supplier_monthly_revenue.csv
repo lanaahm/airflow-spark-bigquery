@@ -1,0 +1,604 @@
+month,supplierID,supplierName,total_gross_revenue
+1997-01-01,28,Gai pâturage,11830.400000
+1997-09-01,28,Gai pâturage,10287.000000
+1997-04-01,28,Gai pâturage,6634.800000
+1997-06-01,28,Gai pâturage,6227.200000
+1996-08-01,28,Gai pâturage,5684.000000
+1997-07-01,28,Gai pâturage,17007.000000
+1998-02-01,28,Gai pâturage,10980.000000
+1996-10-01,28,Gai pâturage,4457.200000
+1996-12-01,28,Gai pâturage,5892.160000
+1996-09-01,28,Gai pâturage,2860.000000
+1997-10-01,28,Gai pâturage,12087.000000
+1996-07-01,28,Gai pâturage,10052.000000
+1997-02-01,28,Gai pâturage,3168.000000
+1998-04-01,28,Gai pâturage,44280.600000
+1998-05-01,28,Gai pâturage,127.840000
+1998-01-01,28,Gai pâturage,25495.000000
+1996-11-01,28,Gai pâturage,7175.360000
+1997-03-01,28,Gai pâturage,17520.000000
+1997-05-01,28,Gai pâturage,3490.000000
+1997-08-01,28,Gai pâturage,2040.000000
+1997-11-01,28,Gai pâturage,14182.500000
+1997-12-01,28,Gai pâturage,8087.500000
+1998-03-01,28,Gai pâturage,6396.800000
+1997-02-01,26,Pasta Buttini s.r.l.,5177.600000
+1997-06-01,26,Pasta Buttini s.r.l.,7154.000000
+1997-01-01,26,Pasta Buttini s.r.l.,7008.000000
+1998-01-01,26,Pasta Buttini s.r.l.,10152.500000
+1997-12-01,26,Pasta Buttini s.r.l.,7068.000000
+1997-09-01,26,Pasta Buttini s.r.l.,4195.200000
+1998-02-01,26,Pasta Buttini s.r.l.,3512.200000
+1997-04-01,26,Pasta Buttini s.r.l.,11035.200000
+1996-08-01,26,Pasta Buttini s.r.l.,62.400000
+1996-12-01,26,Pasta Buttini s.r.l.,2036.800000
+1998-04-01,26,Pasta Buttini s.r.l.,3772.000000
+1997-03-01,26,Pasta Buttini s.r.l.,2675.200000
+1996-07-01,26,Pasta Buttini s.r.l.,2126.200000
+1997-10-01,26,Pasta Buttini s.r.l.,6006.000000
+1996-09-01,26,Pasta Buttini s.r.l.,1459.200000
+1997-05-01,26,Pasta Buttini s.r.l.,2113.500000
+1996-11-01,26,Pasta Buttini s.r.l.,2776.000000
+1997-07-01,26,Pasta Buttini s.r.l.,4276.000000
+1997-08-01,26,Pasta Buttini s.r.l.,5852.000000
+1998-03-01,26,Pasta Buttini s.r.l.,3898.200000
+1997-11-01,26,Pasta Buttini s.r.l.,6960.700000
+1996-10-01,26,Pasta Buttini s.r.l.,1192.320000
+1997-07-01,27,Escargots Nouveaux,795.000000
+1998-02-01,27,Escargots Nouveaux,1065.300000
+1997-08-01,27,Escargots Nouveaux,159.000000
+1998-04-01,27,Escargots Nouveaux,1007.000000
+1997-10-01,27,Escargots Nouveaux,834.750000
+1998-03-01,27,Escargots Nouveaux,636.000000
+1996-10-01,27,Escargots Nouveaux,508.800000
+1996-09-01,27,Escargots Nouveaux,572.400000
+1996-12-01,27,Escargots Nouveaux,1674.800000
+1998-01-01,27,Escargots Nouveaux,2146.500000
+1997-09-01,27,Escargots Nouveaux,1833.800000
+1997-05-01,27,Escargots Nouveaux,530.000000
+1996-09-01,12,Plutzer Lebensmittelgroßmärkte AG,6908.600000
+1998-01-01,12,Plutzer Lebensmittelgroßmärkte AG,12233.808000
+1997-11-01,12,Plutzer Lebensmittelgroßmärkte AG,4141.600000
+1996-08-01,12,Plutzer Lebensmittelgroßmärkte AG,5633.600000
+1997-09-01,12,Plutzer Lebensmittelgroßmärkte AG,16729.930000
+1997-04-01,12,Plutzer Lebensmittelgroßmärkte AG,16796.800000
+1996-12-01,12,Plutzer Lebensmittelgroßmärkte AG,10293.600000
+1998-05-01,12,Plutzer Lebensmittelgroßmärkte AG,10126.970000
+1997-07-01,12,Plutzer Lebensmittelgroßmärkte AG,3091.500000
+1996-07-01,12,Plutzer Lebensmittelgroßmärkte AG,2541.600000
+1997-03-01,12,Plutzer Lebensmittelgroßmärkte AG,7826.560000
+1997-05-01,12,Plutzer Lebensmittelgroßmärkte AG,1350.400000
+1997-01-01,12,Plutzer Lebensmittelgroßmärkte AG,8187.040000
+1998-04-01,12,Plutzer Lebensmittelgroßmärkte AG,36313.020000
+1998-02-01,12,Plutzer Lebensmittelgroßmärkte AG,43114.645000
+1997-12-01,12,Plutzer Lebensmittelgroßmärkte AG,22238.374000
+1997-06-01,12,Plutzer Lebensmittelgroßmärkte AG,8189.850000
+1996-11-01,12,Plutzer Lebensmittelgroßmärkte AG,12895.200000
+1997-08-01,12,Plutzer Lebensmittelgroßmärkte AG,11622.680000
+1997-02-01,12,Plutzer Lebensmittelgroßmärkte AG,12954.840000
+1996-10-01,12,Plutzer Lebensmittelgroßmärkte AG,4299.200000
+1997-10-01,12,Plutzer Lebensmittelgroßmärkte AG,18886.412000
+1998-03-01,12,Plutzer Lebensmittelgroßmärkte AG,14368.570000
+1998-02-01,22,Zaanse Snoepfabriek,359.100000
+1997-04-01,22,Zaanse Snoepfabriek,422.025000
+1996-10-01,22,Zaanse Snoepfabriek,194.560000
+1997-07-01,22,Zaanse Snoepfabriek,422.700000
+1997-02-01,22,Zaanse Snoepfabriek,275.400000
+1997-06-01,22,Zaanse Snoepfabriek,475.000000
+1997-11-01,22,Zaanse Snoepfabriek,427.500000
+1997-09-01,22,Zaanse Snoepfabriek,1337.600000
+1998-03-01,22,Zaanse Snoepfabriek,931.000000
+1997-03-01,22,Zaanse Snoepfabriek,456.000000
+1998-01-01,22,Zaanse Snoepfabriek,743.400000
+1997-12-01,22,Zaanse Snoepfabriek,570.000000
+1997-10-01,22,Zaanse Snoepfabriek,1647.500000
+1997-01-01,22,Zaanse Snoepfabriek,2391.800000
+1998-03-01,1,Exotic Liquids,2699.000000
+1997-01-01,1,Exotic Liquids,3603.200000
+1997-06-01,1,Exotic Liquids,360.000000
+1997-11-01,1,Exotic Liquids,2944.000000
+1998-04-01,1,Exotic Liquids,9882.500000
+1997-10-01,1,Exotic Liquids,3448.000000
+1998-01-01,1,Exotic Liquids,6247.300000
+1998-05-01,1,Exotic Liquids,3306.600000
+1996-10-01,1,Exotic Liquids,1361.920000
+1997-04-01,1,Exotic Liquids,1608.000000
+1997-05-01,1,Exotic Liquids,1444.800000
+1997-02-01,1,Exotic Liquids,1466.800000
+1996-09-01,1,Exotic Liquids,1792.000000
+1996-07-01,1,Exotic Liquids,2888.000000
+1997-08-01,1,Exotic Liquids,5048.000000
+1998-02-01,1,Exotic Liquids,5214.500000
+1996-12-01,1,Exotic Liquids,937.200000
+1997-03-01,1,Exotic Liquids,2300.800000
+1997-12-01,1,Exotic Liquids,3371.500000
+1996-11-01,1,Exotic Liquids,712.800000
+1996-08-01,1,Exotic Liquids,2035.200000
+1997-07-01,1,Exotic Liquids,1704.000000
+1997-02-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,869.400000
+1996-07-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,1863.000000
+1997-03-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,331.200000
+1997-06-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,1035.600000
+1997-08-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,1553.400000
+1997-04-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,828.480000
+1996-12-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,670.680000
+1996-10-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,2094.840000
+1996-08-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,248.400000
+1997-11-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,3106.800000
+1997-01-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,745.200000
+1997-09-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,77.670000
+1997-12-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,1592.235000
+1998-03-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,1605.180000
+1997-05-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,1812.300000
+1997-10-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,116.505000
+1998-05-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,155.340000
+1998-02-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,5967.645000
+1996-09-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,414.000000
+1998-01-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,983.820000
+1998-04-01,13,Nord-Ost-Fisch Handelsgesellschaft mbH,776.700000
+1998-02-01,6,Mayumi's,859.200000
+1996-08-01,6,Mayumi's,764.800000
+1996-10-01,6,Mayumi's,946.000000
+1997-08-01,6,Mayumi's,1248.600000
+1998-03-01,6,Mayumi's,3169.200000
+1997-03-01,6,Mayumi's,456.000000
+1997-06-01,6,Mayumi's,2523.400000
+1996-12-01,6,Mayumi's,2190.600000
+1997-05-01,6,Mayumi's,216.000000
+1998-04-01,6,Mayumi's,2292.000000
+1998-05-01,6,Mayumi's,904.605000
+1997-07-01,6,Mayumi's,1542.650000
+1998-01-01,6,Mayumi's,967.800000
+1997-09-01,6,Mayumi's,3070.550000
+1997-11-01,6,Mayumi's,1061.625000
+1997-12-01,6,Mayumi's,762.000000
+1997-01-01,6,Mayumi's,2435.280000
+1996-07-01,6,Mayumi's,334.800000
+1997-04-01,6,Mayumi's,3728.400000
+1997-07-01,16,Bigfoot Breweries,1674.000000
+1997-01-01,16,Bigfoot Breweries,2390.400000
+1996-07-01,16,Bigfoot Breweries,576.000000
+1997-02-01,16,Bigfoot Breweries,588.800000
+1997-03-01,16,Bigfoot Breweries,744.800000
+1996-11-01,16,Bigfoot Breweries,1019.200000
+1997-11-01,16,Bigfoot Breweries,1848.000000
+1996-10-01,16,Bigfoot Breweries,2001.600000
+1996-09-01,16,Bigfoot Breweries,313.600000
+1996-12-01,16,Bigfoot Breweries,2124.800000
+1998-05-01,16,Bigfoot Breweries,980.000000
+1997-06-01,16,Bigfoot Breweries,1840.000000
+1997-09-01,16,Bigfoot Breweries,700.000000
+1997-12-01,16,Bigfoot Breweries,904.000000
+1997-10-01,16,Bigfoot Breweries,1659.800000
+1997-05-01,16,Bigfoot Breweries,2314.000000
+1998-02-01,16,Bigfoot Breweries,2452.000000
+1998-03-01,16,Bigfoot Breweries,3849.600000
+1997-04-01,16,Bigfoot Breweries,948.000000
+1998-04-01,16,Bigfoot Breweries,9320.600000
+1996-08-01,16,Bigfoot Breweries,3527.200000
+1998-01-01,16,Bigfoot Breweries,2034.000000
+1997-08-01,16,Bigfoot Breweries,972.000000
+1998-05-01,3,Grandma Kelly's Homestead,1855.000000
+1998-01-01,3,Grandma Kelly's Homestead,3280.000000
+1996-12-01,3,Grandma Kelly's Homestead,384.000000
+1997-03-01,3,Grandma Kelly's Homestead,1440.000000
+1996-11-01,3,Grandma Kelly's Homestead,7840.000000
+1997-05-01,3,Grandma Kelly's Homestead,600.000000
+1997-10-01,3,Grandma Kelly's Homestead,9400.000000
+1998-03-01,3,Grandma Kelly's Homestead,20020.000000
+1997-12-01,3,Grandma Kelly's Homestead,4173.000000
+1997-11-01,3,Grandma Kelly's Homestead,1500.000000
+1998-02-01,3,Grandma Kelly's Homestead,6635.000000
+1997-04-01,3,Grandma Kelly's Homestead,5150.000000
+1997-08-01,3,Grandma Kelly's Homestead,5600.000000
+1996-10-01,3,Grandma Kelly's Homestead,240.000000
+1997-02-01,3,Grandma Kelly's Homestead,729.600000
+1996-07-01,3,Grandma Kelly's Homestead,720.000000
+1998-04-01,3,Grandma Kelly's Homestead,9840.000000
+1996-09-01,3,Grandma Kelly's Homestead,1200.000000
+1997-07-01,3,Grandma Kelly's Homestead,3300.000000
+1998-04-01,20,Leka Trading,9053.500000
+1997-04-01,20,Leka Trading,3348.700000
+1998-01-01,20,Leka Trading,5612.320000
+1998-02-01,20,Leka Trading,700.000000
+1996-08-01,20,Leka Trading,4760.600000
+1997-03-01,20,Leka Trading,2892.750000
+1997-07-01,20,Leka Trading,2240.000000
+1997-11-01,20,Leka Trading,1406.400000
+1997-08-01,20,Leka Trading,2369.000000
+1996-11-01,20,Leka Trading,2469.250000
+1996-10-01,20,Leka Trading,2976.000000
+1997-12-01,20,Leka Trading,3282.200000
+1997-05-01,20,Leka Trading,9376.000000
+1997-09-01,20,Leka Trading,4715.180000
+1997-06-01,20,Leka Trading,1872.300000
+1997-01-01,20,Leka Trading,1843.200000
+1996-09-01,20,Leka Trading,4300.800000
+1998-03-01,20,Leka Trading,4719.540000
+1998-05-01,20,Leka Trading,2815.200000
+1997-10-01,20,Leka Trading,8669.350000
+1996-07-01,20,Leka Trading,196.000000
+1997-02-01,20,Leka Trading,4417.000000
+1997-01-01,5,Cooperativa de Quesos 'Las Cabras',1008.000000
+1997-02-01,5,Cooperativa de Quesos 'Las Cabras',2282.880000
+1997-03-01,5,Cooperativa de Quesos 'Las Cabras',882.000000
+1996-11-01,5,Cooperativa de Quesos 'Las Cabras',1128.960000
+1997-12-01,5,Cooperativa de Quesos 'Las Cabras',3202.500000
+1997-08-01,5,Cooperativa de Quesos 'Las Cabras',2745.600000
+1998-04-01,5,Cooperativa de Quesos 'Las Cabras',3627.200000
+1998-03-01,5,Cooperativa de Quesos 'Las Cabras',5931.500000
+1996-09-01,5,Cooperativa de Quesos 'Las Cabras',403.200000
+1997-10-01,5,Cooperativa de Quesos 'Las Cabras',3670.000000
+1998-02-01,5,Cooperativa de Quesos 'Las Cabras',3360.000000
+1997-09-01,5,Cooperativa de Quesos 'Las Cabras',7600.000000
+1998-05-01,5,Cooperativa de Quesos 'Las Cabras',564.400000
+1997-05-01,5,Cooperativa de Quesos 'Las Cabras',6457.500000
+1997-07-01,5,Cooperativa de Quesos 'Las Cabras',588.000000
+1996-10-01,5,Cooperativa de Quesos 'Las Cabras',1344.000000
+1997-11-01,5,Cooperativa de Quesos 'Las Cabras',210.000000
+1997-06-01,5,Cooperativa de Quesos 'Las Cabras',1848.000000
+1996-07-01,5,Cooperativa de Quesos 'Las Cabras',1029.120000
+1998-01-01,5,Cooperativa de Quesos 'Las Cabras',2436.000000
+1997-12-01,19,New England Seafood Cannery,1416.750000
+1996-07-01,19,New England Seafood Cannery,2136.050000
+1997-11-01,19,New England Seafood Cannery,4182.300000
+1996-08-01,19,New England Seafood Cannery,2616.600000
+1998-05-01,19,New England Seafood Cannery,1235.200000
+1996-09-01,19,New England Seafood Cannery,1506.400000
+1997-01-01,19,New England Seafood Cannery,1463.420000
+1998-01-01,19,New England Seafood Cannery,4904.400000
+1996-11-01,19,New England Seafood Cannery,317.800000
+1997-07-01,19,New England Seafood Cannery,1545.600000
+1997-08-01,19,New England Seafood Cannery,2208.000000
+1996-12-01,19,New England Seafood Cannery,110.880000
+1997-10-01,19,New England Seafood Cannery,1042.200000
+1996-10-01,19,New England Seafood Cannery,483.560000
+1997-04-01,19,New England Seafood Cannery,2810.600000
+1997-02-01,19,New England Seafood Cannery,1050.000000
+1998-04-01,19,New England Seafood Cannery,3720.785000
+1997-09-01,19,New England Seafood Cannery,8236.240000
+1998-02-01,19,New England Seafood Cannery,4736.100000
+1997-03-01,19,New England Seafood Cannery,1793.400000
+1997-05-01,19,New England Seafood Cannery,1496.820000
+1998-03-01,19,New England Seafood Cannery,1870.210000
+1997-06-01,19,New England Seafood Cannery,2298.635000
+1997-04-01,15,Norske Meierier,586.400000
+1998-01-01,15,Norske Meierier,2164.000000
+1997-02-01,15,Norske Meierier,2884.800000
+1997-01-01,15,Norske Meierier,5014.400000
+1997-09-01,15,Norske Meierier,3923.600000
+1996-09-01,15,Norske Meierier,1496.800000
+1996-08-01,15,Norske Meierier,864.000000
+1997-10-01,15,Norske Meierier,7975.000000
+1997-11-01,15,Norske Meierier,7758.000000
+1997-03-01,15,Norske Meierier,460.800000
+1998-02-01,15,Norske Meierier,6085.000000
+1997-08-01,15,Norske Meierier,3647.500000
+1996-12-01,15,Norske Meierier,8775.200000
+1997-12-01,15,Norske Meierier,2586.400000
+1997-06-01,15,Norske Meierier,772.000000
+1998-03-01,15,Norske Meierier,2603.000000
+1996-07-01,15,Norske Meierier,323.000000
+1998-04-01,15,Norske Meierier,13109.800000
+1996-11-01,15,Norske Meierier,3985.120000
+1997-07-01,15,Norske Meierier,6344.500000
+1997-05-01,15,Norske Meierier,2621.300000
+1996-10-01,15,Norske Meierier,2302.400000
+1998-02-01,9,PB Knäckebröd AB,1332.000000
+1997-01-01,9,PB Knäckebröd AB,864.000000
+1997-02-01,9,PB Knäckebröd AB,403.200000
+1998-03-01,9,PB Knäckebröd AB,990.000000
+1997-03-01,9,PB Knäckebröd AB,518.400000
+1998-05-01,9,PB Knäckebröd AB,36.000000
+1996-07-01,9,PB Knäckebröd AB,191.520000
+1996-10-01,9,PB Knäckebröd AB,576.000000
+1997-07-01,9,PB Knäckebröd AB,2016.000000
+1996-12-01,9,PB Knäckebröd AB,576.000000
+1996-11-01,9,PB Knäckebröd AB,360.000000
+1997-04-01,9,PB Knäckebröd AB,144.000000
+1997-05-01,9,PB Knäckebröd AB,2421.000000
+1998-04-01,9,PB Knäckebröd AB,1230.000000
+1998-01-01,9,PB Knäckebröd AB,5112.000000
+1997-11-01,9,PB Knäckebröd AB,792.000000
+1997-09-01,9,PB Knäckebröd AB,1296.000000
+1997-12-01,9,PB Knäckebröd AB,420.000000
+1997-08-01,9,PB Knäckebröd AB,4170.000000
+1997-09-01,17,Svensk Sjöföda AB,2811.000000
+1998-03-01,17,Svensk Sjöföda AB,3655.500000
+1998-05-01,17,Svensk Sjöföda AB,59.400000
+1997-05-01,17,Svensk Sjöföda AB,6242.400000
+1996-11-01,17,Svensk Sjöföda AB,577.600000
+1996-08-01,17,Svensk Sjöföda AB,1512.000000
+1998-04-01,17,Svensk Sjöföda AB,2451.000000
+1997-06-01,17,Svensk Sjöföda AB,1040.000000
+1997-03-01,17,Svensk Sjöföda AB,384.000000
+1997-10-01,17,Svensk Sjöföda AB,3142.500000
+1998-01-01,17,Svensk Sjöföda AB,3921.000000
+1996-10-01,17,Svensk Sjöföda AB,2745.600000
+1997-12-01,17,Svensk Sjöföda AB,1140.000000
+1996-12-01,17,Svensk Sjöföda AB,145.920000
+1998-02-01,17,Svensk Sjöföda AB,1060.000000
+1997-11-01,17,Svensk Sjöföda AB,1286.000000
+1997-08-01,17,Svensk Sjöföda AB,1462.500000
+1996-09-01,17,Svensk Sjöföda AB,1276.800000
+1996-07-01,17,Svensk Sjöföda AB,801.600000
+1997-07-01,17,Svensk Sjöföda AB,3588.500000
+1997-01-01,17,Svensk Sjöföda AB,984.800000
+1997-05-01,4,Tokyo Traders,124.000000
+1997-12-01,4,Tokyo Traders,4149.000000
+1996-11-01,4,Tokyo Traders,1190.400000
+1997-06-01,4,Tokyo Traders,310.000000
+1996-08-01,4,Tokyo Traders,1874.880000
+1997-04-01,4,Tokyo Traders,3580.800000
+1998-01-01,4,Tokyo Traders,8174.000000
+1998-03-01,4,Tokyo Traders,4526.000000
+1997-09-01,4,Tokyo Traders,9903.800000
+1997-03-01,4,Tokyo Traders,1198.400000
+1998-04-01,4,Tokyo Traders,1664.800000
+1997-02-01,4,Tokyo Traders,1968.000000
+1996-07-01,4,Tokyo Traders,768.000000
+1997-11-01,4,Tokyo Traders,100.000000
+1998-05-01,4,Tokyo Traders,62.000000
+1997-01-01,4,Tokyo Traders,3033.600000
+1997-10-01,4,Tokyo Traders,5578.400000
+1997-08-01,4,Tokyo Traders,837.000000
+1998-02-01,4,Tokyo Traders,4960.000000
+1997-07-01,4,Tokyo Traders,4960.000000
+1996-12-01,4,Tokyo Traders,2089.600000
+1997-02-01,8,Specialty Biscuits Ltd.,2255.880000
+1996-12-01,8,Specialty Biscuits Ltd.,6259.200000
+1996-07-01,8,Specialty Biscuits Ltd.,5404.800000
+1996-09-01,8,Specialty Biscuits Ltd.,949.000000
+1996-08-01,8,Specialty Biscuits Ltd.,3701.000000
+1997-04-01,8,Specialty Biscuits Ltd.,7348.000000
+1997-10-01,8,Specialty Biscuits Ltd.,3042.400000
+1997-07-01,8,Specialty Biscuits Ltd.,3001.600000
+1997-12-01,8,Specialty Biscuits Ltd.,3918.520000
+1998-01-01,8,Specialty Biscuits Ltd.,3199.440000
+1996-10-01,8,Specialty Biscuits Ltd.,758.700000
+1998-03-01,8,Specialty Biscuits Ltd.,15624.600000
+1997-01-01,8,Specialty Biscuits Ltd.,3035.300000
+1997-08-01,8,Specialty Biscuits Ltd.,3397.400000
+1997-03-01,8,Specialty Biscuits Ltd.,1455.600000
+1998-04-01,8,Specialty Biscuits Ltd.,7078.000000
+1997-09-01,8,Specialty Biscuits Ltd.,5859.200000
+1997-06-01,8,Specialty Biscuits Ltd.,515.200000
+1996-11-01,8,Specialty Biscuits Ltd.,1240.000000
+1997-05-01,8,Specialty Biscuits Ltd.,4154.000000
+1998-02-01,8,Specialty Biscuits Ltd.,6368.800000
+1997-11-01,8,Specialty Biscuits Ltd.,1480.000000
+1998-05-01,8,Specialty Biscuits Ltd.,2441.320000
+1998-04-01,23,Karkki Oy,6908.000000
+1997-09-01,23,Karkki Oy,360.000000
+1996-09-01,23,Karkki Oy,960.000000
+1996-08-01,23,Karkki Oy,1382.880000
+1998-01-01,23,Karkki Oy,2817.000000
+1997-05-01,23,Karkki Oy,2040.000000
+1996-11-01,23,Karkki Oy,1816.600000
+1997-06-01,23,Karkki Oy,2304.000000
+1998-02-01,23,Karkki Oy,3552.000000
+1997-11-01,23,Karkki Oy,3685.000000
+1996-07-01,23,Karkki Oy,1647.200000
+1997-02-01,23,Karkki Oy,1011.840000
+1997-08-01,23,Karkki Oy,2031.875000
+1997-12-01,23,Karkki Oy,136.000000
+1998-05-01,23,Karkki Oy,776.200000
+1997-07-01,23,Karkki Oy,4989.200000
+1997-10-01,23,Karkki Oy,1611.000000
+1997-03-01,23,Karkki Oy,2446.160000
+1996-12-01,23,Karkki Oy,1398.000000
+1997-04-01,23,Karkki Oy,1000.000000
+1996-10-01,23,Karkki Oy,1468.800000
+1997-01-01,23,Karkki Oy,3747.200000
+1998-03-01,23,Karkki Oy,8796.500000
+1997-07-01,7,Pavlova Ltd.,14907.910000
+1997-10-01,7,Pavlova Ltd.,11126.300000
+1997-05-01,7,Pavlova Ltd.,8316.450000
+1997-06-01,7,Pavlova Ltd.,5405.820000
+1998-04-01,7,Pavlova Ltd.,12251.600000
+1998-05-01,7,Pavlova Ltd.,6931.926000
+1998-01-01,7,Pavlova Ltd.,14327.750000
+1996-11-01,7,Pavlova Ltd.,3500.720000
+1997-01-01,7,Pavlova Ltd.,11785.980000
+1996-07-01,7,Pavlova Ltd.,4954.000000
+1996-12-01,7,Pavlova Ltd.,3350.880000
+1997-08-01,7,Pavlova Ltd.,11137.500000
+1997-02-01,7,Pavlova Ltd.,3211.470000
+1996-09-01,7,Pavlova Ltd.,7178.000000
+1996-10-01,7,Pavlova Ltd.,16266.630000
+1996-08-01,7,Pavlova Ltd.,4695.800000
+1998-02-01,7,Pavlova Ltd.,11280.110000
+1997-11-01,7,Pavlova Ltd.,9174.225000
+1997-12-01,7,Pavlova Ltd.,17362.000000
+1998-03-01,7,Pavlova Ltd.,19010.780000
+1997-03-01,7,Pavlova Ltd.,5911.450000
+1997-09-01,7,Pavlova Ltd.,5716.750000
+1997-04-01,7,Pavlova Ltd.,5115.500000
+1998-05-01,10,Refrescos Americanas LTDA,180.000000
+1997-04-01,10,Refrescos Americanas LTDA,319.500000
+1997-08-01,10,Refrescos Americanas LTDA,186.750000
+1998-02-01,10,Refrescos Americanas LTDA,1300.500000
+1997-05-01,10,Refrescos Americanas LTDA,283.500000
+1998-03-01,10,Refrescos Americanas LTDA,1777.500000
+1997-07-01,10,Refrescos Americanas LTDA,252.000000
+1998-01-01,10,Refrescos Americanas LTDA,270.000000
+1997-12-01,10,Refrescos Americanas LTDA,333.000000
+1996-07-01,10,Refrescos Americanas LTDA,293.400000
+1998-04-01,10,Refrescos Americanas LTDA,1107.000000
+1996-08-01,10,Refrescos Americanas LTDA,283.680000
+1997-02-01,10,Refrescos Americanas LTDA,129.600000
+1997-03-01,10,Refrescos Americanas LTDA,928.800000
+1997-10-01,10,Refrescos Americanas LTDA,495.000000
+1996-12-01,10,Refrescos Americanas LTDA,216.000000
+1996-11-01,10,Refrescos Americanas LTDA,320.400000
+1997-06-01,10,Refrescos Americanas LTDA,332.100000
+1997-03-01,25,Ma Maison,1322.160000
+1998-05-01,25,Ma Maison,492.300000
+1997-06-01,25,Ma Maison,1960.800000
+1996-08-01,25,Ma Maison,874.200000
+1998-01-01,25,Ma Maison,391.125000
+1997-05-01,25,Ma Maison,1354.420000
+1997-07-01,25,Ma Maison,1812.600000
+1997-09-01,25,Ma Maison,700.260000
+1997-04-01,25,Ma Maison,298.000000
+1998-04-01,25,Ma Maison,8369.000000
+1996-12-01,25,Ma Maison,4841.200000
+1996-09-01,25,Ma Maison,59.000000
+1997-02-01,25,Ma Maison,7052.840000
+1997-12-01,25,Ma Maison,2405.850000
+1997-10-01,25,Ma Maison,2726.400000
+1996-10-01,25,Ma Maison,1405.800000
+1998-03-01,25,Ma Maison,1152.000000
+1996-07-01,25,Ma Maison,685.440000
+1997-11-01,25,Ma Maison,576.000000
+1998-02-01,25,Ma Maison,2234.280000
+1997-08-01,25,Ma Maison,994.200000
+1996-11-01,25,Ma Maison,1770.600000
+1997-01-01,25,Ma Maison,830.800000
+1998-01-01,24,G'day Mate,3507.360000
+1996-08-01,24,G'day Mate,1661.760000
+1996-12-01,24,G'day Mate,7817.040000
+1998-02-01,24,G'day Mate,595.000000
+1996-10-01,24,G'day Mate,3569.920000
+1997-01-01,24,G'day Mate,1192.100000
+1997-12-01,24,G'day Mate,18702.500000
+1997-02-01,24,G'day Mate,3781.200000
+1996-11-01,24,G'day Mate,1696.000000
+1998-04-01,24,G'day Mate,17888.100000
+1998-05-01,24,G'day Mate,1504.000000
+1997-10-01,24,G'day Mate,11824.960000
+1997-09-01,24,G'day Mate,4916.000000
+1997-08-01,24,G'day Mate,4005.200000
+1997-03-01,24,G'day Mate,5368.000000
+1998-03-01,24,G'day Mate,10027.800000
+1997-04-01,24,G'day Mate,1461.600000
+1997-06-01,24,G'day Mate,13654.800000
+1996-07-01,24,G'day Mate,6700.800000
+1997-11-01,24,G'day Mate,4463.000000
+1996-09-01,24,G'day Mate,1572.000000
+1997-07-01,24,G'day Mate,383.600000
+1997-05-01,24,G'day Mate,4960.800000
+1997-07-01,29,Forêts d'érables,6904.800000
+1998-02-01,29,Forêts d'érables,8335.260000
+1997-06-01,29,Forêts d'érables,2982.650000
+1998-01-01,29,Forêts d'érables,10943.750000
+1996-12-01,29,Forêts d'érables,2364.000000
+1997-04-01,29,Forêts d'érables,2404.800000
+1998-04-01,29,Forêts d'érables,7586.850000
+1997-01-01,29,Forêts d'érables,6639.600000
+1997-05-01,29,Forêts d'érables,7470.400000
+1997-02-01,29,Forêts d'érables,7386.400000
+1997-12-01,29,Forêts d'érables,5157.950000
+1997-11-01,29,Forêts d'érables,4871.400000
+1997-10-01,29,Forêts d'érables,7559.800000
+1996-09-01,29,Forêts d'érables,9653.000000
+1998-03-01,29,Forêts d'érables,15642.180000
+1996-07-01,29,Forêts d'érables,886.500000
+1997-08-01,29,Forêts d'érables,9095.800000
+1996-08-01,29,Forêts d'érables,4097.600000
+1997-09-01,29,Forêts d'érables,986.000000
+1996-10-01,29,Forêts d'érables,2206.400000
+1997-12-01,21,Lyngbysild,487.350000
+1997-10-01,21,Lyngbysild,3098.000000
+1997-09-01,21,Lyngbysild,2520.000000
+1997-04-01,21,Lyngbysild,582.600000
+1997-11-01,21,Lyngbysild,1968.400000
+1998-01-01,21,Lyngbysild,1387.200000
+1998-05-01,21,Lyngbysild,682.560000
+1997-05-01,21,Lyngbysild,1615.000000
+1998-03-01,21,Lyngbysild,1146.000000
+1996-12-01,21,Lyngbysild,1530.240000
+1997-03-01,21,Lyngbysild,506.400000
+1997-08-01,21,Lyngbysild,869.600000
+1998-02-01,21,Lyngbysild,789.000000
+1997-02-01,21,Lyngbysild,614.400000
+1996-08-01,21,Lyngbysild,244.800000
+1997-01-01,21,Lyngbysild,412.800000
+1998-04-01,21,Lyngbysild,1412.000000
+1996-10-01,21,Lyngbysild,576.000000
+1997-10-01,11,Heli Süßwaren GmbH & Co. KG,2810.700000
+1998-01-01,11,Heli Süßwaren GmbH & Co. KG,7586.773000
+1997-12-01,11,Heli Süßwaren GmbH & Co. KG,5947.328000
+1998-03-01,11,Heli Süßwaren GmbH & Co. KG,5813.300000
+1997-05-01,11,Heli Süßwaren GmbH & Co. KG,2498.400000
+1997-07-01,11,Heli Süßwaren GmbH & Co. KG,5061.445000
+1996-11-01,11,Heli Süßwaren GmbH & Co. KG,2140.800000
+1997-09-01,11,Heli Süßwaren GmbH & Co. KG,2529.630000
+1997-04-01,11,Heli Süßwaren GmbH & Co. KG,12266.400000
+1997-11-01,11,Heli Süßwaren GmbH & Co. KG,1923.768000
+1998-02-01,11,Heli Süßwaren GmbH & Co. KG,1389.200000
+1997-01-01,11,Heli Süßwaren GmbH & Co. KG,3510.900000
+1998-04-01,11,Heli Süßwaren GmbH & Co. KG,5479.260000
+1996-12-01,11,Heli Süßwaren GmbH & Co. KG,2732.100000
+1997-03-01,11,Heli Süßwaren GmbH & Co. KG,1762.800000
+1996-08-01,11,Heli Süßwaren GmbH & Co. KG,789.750000
+1997-08-01,11,Heli Süßwaren GmbH & Co. KG,1858.185000
+1996-07-01,11,Heli Süßwaren GmbH & Co. KG,1755.000000
+1996-10-01,11,Heli Süßwaren GmbH & Co. KG,3401.300000
+1997-02-01,11,Heli Süßwaren GmbH & Co. KG,6049.800000
+1998-04-01,14,Formaggi Fortini s.r.l.,8342.200000
+1996-08-01,14,Formaggi Fortini s.r.l.,2975.400000
+1997-06-01,14,Formaggi Fortini s.r.l.,8064.400000
+1997-05-01,14,Formaggi Fortini s.r.l.,8302.350000
+1997-01-01,14,Formaggi Fortini s.r.l.,280.000000
+1998-05-01,14,Formaggi Fortini s.r.l.,564.000000
+1997-10-01,14,Formaggi Fortini s.r.l.,2006.000000
+1996-07-01,14,Formaggi Fortini s.r.l.,2272.560000
+1998-01-01,14,Formaggi Fortini s.r.l.,6512.700000
+1998-03-01,14,Formaggi Fortini s.r.l.,12439.350000
+1996-09-01,14,Formaggi Fortini s.r.l.,2955.200000
+1997-03-01,14,Formaggi Fortini s.r.l.,595.000000
+1997-07-01,14,Formaggi Fortini s.r.l.,835.200000
+1997-11-01,14,Formaggi Fortini s.r.l.,3834.450000
+1998-02-01,14,Formaggi Fortini s.r.l.,1259.000000
+1997-08-01,14,Formaggi Fortini s.r.l.,5220.000000
+1997-09-01,14,Formaggi Fortini s.r.l.,1030.000000
+1996-11-01,14,Formaggi Fortini s.r.l.,2330.000000
+1996-12-01,14,Formaggi Fortini s.r.l.,7237.960000
+1997-04-01,14,Formaggi Fortini s.r.l.,4330.000000
+1997-12-01,14,Formaggi Fortini s.r.l.,5813.300000
+1996-10-01,14,Formaggi Fortini s.r.l.,6417.260000
+1997-02-01,14,Formaggi Fortini s.r.l.,2834.000000
+1997-01-01,2,New Orleans Cajun Delights,672.000000
+1997-05-01,2,New Orleans Cajun Delights,6250.040000
+1998-03-01,2,New Orleans Cajun Delights,1074.000000
+1998-01-01,2,New Orleans Cajun Delights,2741.775000
+1996-11-01,2,New Orleans Cajun Delights,2223.200000
+1998-04-01,2,New Orleans Cajun Delights,5658.850000
+1997-04-01,2,New Orleans Cajun Delights,5052.300000
+1997-06-01,2,New Orleans Cajun Delights,1199.850000
+1997-11-01,2,New Orleans Cajun Delights,3183.950000
+1996-12-01,2,New Orleans Cajun Delights,1692.800000
+1998-02-01,2,New Orleans Cajun Delights,3614.935000
+1997-09-01,2,New Orleans Cajun Delights,2074.175000
+1997-10-01,2,New Orleans Cajun Delights,3034.475000
+1997-02-01,2,New Orleans Cajun Delights,3654.720000
+1996-08-01,2,New Orleans Cajun Delights,680.000000
+1998-05-01,2,New Orleans Cajun Delights,78.000000
+1997-12-01,2,New Orleans Cajun Delights,4815.400000
+1997-07-01,2,New Orleans Cajun Delights,1108.160000
+1996-07-01,2,New Orleans Cajun Delights,3194.800000
+1997-08-01,2,New Orleans Cajun Delights,2956.550000
+1996-09-01,2,New Orleans Cajun Delights,2427.200000
+1996-10-01,2,New Orleans Cajun Delights,3111.040000
+1997-03-01,2,New Orleans Cajun Delights,1837.760000
+1997-01-01,18,Aux joyeux ecclésiastiques,37606.720000
+1996-09-01,18,Aux joyeux ecclésiastiques,2505.600000
+1997-08-01,18,Aux joyeux ecclésiastiques,1287.000000
+1996-10-01,18,Aux joyeux ecclésiastiques,8125.600000
+1996-07-01,18,Aux joyeux ecclésiastiques,1382.400000
+1998-03-01,18,Aux joyeux ecclésiastiques,35335.000000
+1996-11-01,18,Aux joyeux ecclésiastiques,31714.080000
+1997-12-01,18,Aux joyeux ecclésiastiques,12754.200000
+1998-05-01,18,Aux joyeux ecclésiastiques,788.400000
+1997-09-01,18,Aux joyeux ecclésiastiques,7848.900000
+1996-12-01,18,Aux joyeux ecclésiastiques,13137.600000
+1997-04-01,18,Aux joyeux ecclésiastiques,8265.000000
+1997-02-01,18,Aux joyeux ecclésiastiques,748.800000
+1998-02-01,18,Aux joyeux ecclésiastiques,55719.800000
+1997-03-01,18,Aux joyeux ecclésiastiques,13080.000000
+1997-05-01,18,Aux joyeux ecclésiastiques,17707.200000
+1998-01-01,18,Aux joyeux ecclésiastiques,38151.500000
+1998-04-01,18,Aux joyeux ecclésiastiques,13175.000000
+1997-06-01,18,Aux joyeux ecclésiastiques,360.000000
+1997-07-01,18,Aux joyeux ecclésiastiques,7689.750000
