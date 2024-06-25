@@ -1,0 +1,16 @@
+[2024-06-25T13:05:45.543+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_flow.load.load_gcs.local_to_gcs_dim_orders manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:05:45.583+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_flow.load.load_gcs.local_to_gcs_dim_orders manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:05:45.596+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-06-25T13:05:45.636+0000] {taskinstance.py:1380} INFO - Executing <Task(LocalFilesystemToGCSOperator): load.load_gcs.local_to_gcs_dim_orders> on 2024-06-25 13:03:07.481260+00:00
+[2024-06-25T13:05:45.710+0000] {standard_task_runner.py:57} INFO - Started process 2181 to run task
+[2024-06-25T13:05:45.737+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'spark_flow', 'load.load_gcs.local_to_gcs_dim_orders', 'manual__2024-06-25T13:03:07.481260+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/spark_***.py', '--cfg-path', '/tmp/tmpjzwyxoxg']
+[2024-06-25T13:05:45.761+0000] {standard_task_runner.py:85} INFO - Job 28: Subtask load.load_gcs.local_to_gcs_dim_orders
+[2024-06-25T13:05:45.965+0000] {task_command.py:415} INFO - Running <TaskInstance: spark_flow.load.load_gcs.local_to_gcs_dim_orders manual__2024-06-25T13:03:07.481260+00:00 [running]> on host e32126fe0c41
+[2024-06-25T13:05:46.248+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Maulana Ahmad Maliki' AIRFLOW_CTX_DAG_ID='spark_flow' AIRFLOW_CTX_TASK_ID='load.load_gcs.local_to_gcs_dim_orders' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T13:03:07.481260+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-25T13:03:07.481260+00:00'
+[2024-06-25T13:05:46.255+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-06-25T13:05:46.261+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-06-25T13:05:46.270+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2024-06-25T13:05:48.142+0000] {gcs.py:564} INFO - File output/dim_orders.csv uploaded to dwh/dim_orders.csv in project-mart-bucket bucket
+[2024-06-25T13:05:48.181+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=spark_flow, task_id=load.load_gcs.local_to_gcs_dim_orders, execution_date=20240625T130307, start_date=20240625T130545, end_date=20240625T130548
+[2024-06-25T13:05:48.229+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-06-25T13:05:48.356+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

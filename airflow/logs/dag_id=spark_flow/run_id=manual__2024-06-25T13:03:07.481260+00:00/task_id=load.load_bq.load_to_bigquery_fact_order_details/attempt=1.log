@@ -1,0 +1,18 @@
+[2024-06-25T13:05:56.752+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_flow.load.load_bq.load_to_bigquery_fact_order_details manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:05:56.768+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_flow.load.load_bq.load_to_bigquery_fact_order_details manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:05:56.769+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-06-25T13:05:56.807+0000] {taskinstance.py:1380} INFO - Executing <Task(GCSToBigQueryOperator): load.load_bq.load_to_bigquery_fact_order_details> on 2024-06-25 13:03:07.481260+00:00
+[2024-06-25T13:05:56.845+0000] {standard_task_runner.py:57} INFO - Started process 2226 to run task
+[2024-06-25T13:05:56.885+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'spark_flow', 'load.load_bq.load_to_bigquery_fact_order_details', 'manual__2024-06-25T13:03:07.481260+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/spark_***.py', '--cfg-path', '/tmp/tmpgtor9lja']
+[2024-06-25T13:05:56.974+0000] {standard_task_runner.py:85} INFO - Job 44: Subtask load.load_bq.load_to_bigquery_fact_order_details
+[2024-06-25T13:05:57.140+0000] {task_command.py:415} INFO - Running <TaskInstance: spark_flow.load.load_bq.load_to_bigquery_fact_order_details manual__2024-06-25T13:03:07.481260+00:00 [running]> on host e32126fe0c41
+[2024-06-25T13:05:57.259+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Maulana Ahmad Maliki' AIRFLOW_CTX_DAG_ID='spark_flow' AIRFLOW_CTX_TASK_ID='load.load_bq.load_to_bigquery_fact_order_details' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T13:03:07.481260+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-25T13:03:07.481260+00:00'
+[2024-06-25T13:05:57.267+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-06-25T13:05:57.268+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-06-25T13:05:57.270+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2024-06-25T13:05:57.271+0000] {gcs_to_bigquery.py:375} INFO - Using existing BigQuery table for storing data...
+[2024-06-25T13:05:57.328+0000] {gcs_to_bigquery.py:379} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'project-mart-427214', 'datasetId': 'datamart', 'tableId': 'fact_order_details'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://project-mart-bucket/dwh/fact_order_details.csv'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': False, 'skipLeadingRows': None, 'fieldDelimiter': ',', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2024-06-25T13:05:57.332+0000] {bigquery.py:1598} INFO - Inserting job ***_spark_flow_load_load_bq_load_to_bigquery_fact_order_details_2024_06_25T13_03_07_481260_00_00_ecaebf5aa5380383ed675cd889b218fe
+[2024-06-25T13:06:00.924+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=spark_flow, task_id=load.load_bq.load_to_bigquery_fact_order_details, execution_date=20240625T130307, start_date=20240625T130556, end_date=20240625T130600
+[2024-06-25T13:06:00.983+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-06-25T13:06:01.083+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

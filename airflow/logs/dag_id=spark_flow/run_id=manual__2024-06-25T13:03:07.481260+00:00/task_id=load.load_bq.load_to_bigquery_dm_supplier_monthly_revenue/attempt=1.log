@@ -1,0 +1,18 @@
+[2024-06-25T13:05:56.178+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_flow.load.load_bq.load_to_bigquery_dm_supplier_monthly_revenue manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:05:56.191+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_flow.load.load_bq.load_to_bigquery_dm_supplier_monthly_revenue manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:05:56.196+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-06-25T13:05:56.229+0000] {taskinstance.py:1380} INFO - Executing <Task(GCSToBigQueryOperator): load.load_bq.load_to_bigquery_dm_supplier_monthly_revenue> on 2024-06-25 13:03:07.481260+00:00
+[2024-06-25T13:05:56.260+0000] {standard_task_runner.py:57} INFO - Started process 2218 to run task
+[2024-06-25T13:05:56.295+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'spark_flow', 'load.load_bq.load_to_bigquery_dm_supplier_monthly_revenue', 'manual__2024-06-25T13:03:07.481260+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/spark_***.py', '--cfg-path', '/tmp/tmpv3bm0odt']
+[2024-06-25T13:05:56.308+0000] {standard_task_runner.py:85} INFO - Job 39: Subtask load.load_bq.load_to_bigquery_dm_supplier_monthly_revenue
+[2024-06-25T13:05:56.560+0000] {task_command.py:415} INFO - Running <TaskInstance: spark_flow.load.load_bq.load_to_bigquery_dm_supplier_monthly_revenue manual__2024-06-25T13:03:07.481260+00:00 [running]> on host e32126fe0c41
+[2024-06-25T13:05:56.738+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Maulana Ahmad Maliki' AIRFLOW_CTX_DAG_ID='spark_flow' AIRFLOW_CTX_TASK_ID='load.load_bq.load_to_bigquery_dm_supplier_monthly_revenue' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T13:03:07.481260+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-25T13:03:07.481260+00:00'
+[2024-06-25T13:05:56.760+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-06-25T13:05:56.764+0000] {connection.py:232} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-06-25T13:05:56.766+0000] {base.py:73} INFO - Using connection ID 'google_cloud_default' for task execution.
+[2024-06-25T13:05:56.770+0000] {gcs_to_bigquery.py:375} INFO - Using existing BigQuery table for storing data...
+[2024-06-25T13:05:56.917+0000] {gcs_to_bigquery.py:379} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'project-mart-427214', 'datasetId': 'datamart', 'tableId': 'dm_supplier_monthly_revenue'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://project-mart-bucket/dwh/dm_supplier_monthly_revenue.csv'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': False, 'skipLeadingRows': None, 'fieldDelimiter': ',', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2024-06-25T13:05:56.960+0000] {bigquery.py:1598} INFO - Inserting job ***_spark_flow_load_load_bq_load_to_bigquery_dm_supplier_monthly_revenue_2024_06_25T13_03_07_481260_00_00_d7fefa5d5e250bdf4215f68178e50e78
+[2024-06-25T13:05:59.982+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=spark_flow, task_id=load.load_bq.load_to_bigquery_dm_supplier_monthly_revenue, execution_date=20240625T130307, start_date=20240625T130556, end_date=20240625T130559
+[2024-06-25T13:06:00.047+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-06-25T13:06:00.099+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

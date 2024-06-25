@@ -1,0 +1,19 @@
+[2024-06-25T13:03:25.833+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_flow.extract_to_staging.table_products manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:03:25.836+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_flow.extract_to_staging.table_products manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:03:25.837+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-06-25T13:03:25.842+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): extract_to_staging.table_products> on 2024-06-25 13:03:07.481260+00:00
+[2024-06-25T13:03:25.848+0000] {standard_task_runner.py:57} INFO - Started process 322 to run task
+[2024-06-25T13:03:25.851+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'spark_flow', 'extract_to_staging.table_products', 'manual__2024-06-25T13:03:07.481260+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/spark_***.py', '--cfg-path', '/tmp/tmpspe44j6o']
+[2024-06-25T13:03:25.853+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask extract_to_staging.table_products
+[2024-06-25T13:03:25.881+0000] {task_command.py:415} INFO - Running <TaskInstance: spark_flow.extract_to_staging.table_products manual__2024-06-25T13:03:07.481260+00:00 [running]> on host e32126fe0c41
+[2024-06-25T13:03:25.924+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Maulana Ahmad Maliki' AIRFLOW_CTX_DAG_ID='spark_flow' AIRFLOW_CTX_TASK_ID='extract_to_staging.table_products' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T13:03:07.481260+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-25T13:03:07.481260+00:00'
+[2024-06-25T13:03:25.925+0000] {logging_mixin.py:151} INFO - [Extract] Start
+[2024-06-25T13:03:25.925+0000] {logging_mixin.py:151} INFO - [Extract] Unzip data from 'https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/csv/products.csv' to 'products'
+[2024-06-25T13:03:26.400+0000] {logging_mixin.py:151} INFO - Extract Data https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/csv/products.csv Success
+[2024-06-25T13:03:26.415+0000] {base.py:73} INFO - Using connection ID 'postgres-conn' for task execution.
+[2024-06-25T13:03:26.464+0000] {logging_mixin.py:151} INFO - Load Data products Success
+[2024-06-25T13:03:26.465+0000] {logging_mixin.py:151} INFO - [Extract] End
+[2024-06-25T13:03:26.465+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-06-25T13:03:26.471+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=spark_flow, task_id=extract_to_staging.table_products, execution_date=20240625T130307, start_date=20240625T130325, end_date=20240625T130326
+[2024-06-25T13:03:26.507+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-06-25T13:03:26.531+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

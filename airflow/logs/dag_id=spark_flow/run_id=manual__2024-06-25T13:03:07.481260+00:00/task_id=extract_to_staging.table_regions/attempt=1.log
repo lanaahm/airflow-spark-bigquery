@@ -1,0 +1,24 @@
+[2024-06-25T13:03:14.634+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_flow.extract_to_staging.table_regions manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:03:14.637+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_flow.extract_to_staging.table_regions manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:03:14.638+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-06-25T13:03:14.643+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): extract_to_staging.table_regions> on 2024-06-25 13:03:07.481260+00:00
+[2024-06-25T13:03:14.667+0000] {standard_task_runner.py:57} INFO - Started process 295 to run task
+[2024-06-25T13:03:14.671+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'spark_flow', 'extract_to_staging.table_regions', 'manual__2024-06-25T13:03:07.481260+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/spark_***.py', '--cfg-path', '/tmp/tmpixwr16ow']
+[2024-06-25T13:03:14.675+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask extract_to_staging.table_regions
+[2024-06-25T13:03:14.715+0000] {task_command.py:415} INFO - Running <TaskInstance: spark_flow.extract_to_staging.table_regions manual__2024-06-25T13:03:07.481260+00:00 [running]> on host e32126fe0c41
+[2024-06-25T13:03:14.751+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Maulana Ahmad Maliki' AIRFLOW_CTX_DAG_ID='spark_flow' AIRFLOW_CTX_TASK_ID='extract_to_staging.table_regions' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T13:03:07.481260+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-25T13:03:07.481260+00:00'
+[2024-06-25T13:03:14.752+0000] {logging_mixin.py:151} INFO - [Extract] Start
+[2024-06-25T13:03:14.752+0000] {logging_mixin.py:151} INFO - [Extract] Unzip data from 'https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/csv/regions.csv' to 'regions'
+[2024-06-25T13:03:15.303+0000] {logging_mixin.py:151} INFO - Extract Data https://raw.githubusercontent.com/graphql-compose/graphql-compose-examples/master/examples/northwind/data/csv/regions.csv Success
+[2024-06-25T13:03:15.323+0000] {base.py:73} INFO - Using connection ID 'postgres-conn' for task execution.
+[2024-06-25T13:03:15.386+0000] {logging_mixin.py:151} INFO - Error loading data into regions: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "regions_pkey"
+DETAIL:  Key ("regionID")=(1) already exists.
+
+[SQL: INSERT INTO regions ("regionID", "regionDescription") VALUES (%(regionID_m0)s, %(regionDescription_m0)s), (%(regionID_m1)s, %(regionDescription_m1)s), (%(regionID_m2)s, %(regionDescription_m2)s), (%(regionID_m3)s, %(regionDescription_m3)s)]
+[parameters: {'regionID_m0': 1, 'regionDescription_m0': 'Eastern', 'regionID_m1': 2, 'regionDescription_m1': 'Western', 'regionID_m2': 3, 'regionDescription_m2': 'Northern', 'regionID_m3': 4, 'regionDescription_m3': 'Southern'}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2024-06-25T13:03:15.386+0000] {logging_mixin.py:151} INFO - [Extract] End
+[2024-06-25T13:03:15.386+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-06-25T13:03:15.399+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=spark_flow, task_id=extract_to_staging.table_regions, execution_date=20240625T130307, start_date=20240625T130314, end_date=20240625T130315
+[2024-06-25T13:03:15.438+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-06-25T13:03:15.477+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check

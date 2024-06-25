@@ -1,0 +1,329 @@
+[2024-06-25T13:05:24.340+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: spark_flow.spark.spark_transform.top_employee_by_revenue manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:05:24.344+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: spark_flow.spark.spark_transform.top_employee_by_revenue manual__2024-06-25T13:03:07.481260+00:00 [queued]>
+[2024-06-25T13:05:24.345+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 1
+[2024-06-25T13:05:24.351+0000] {taskinstance.py:1380} INFO - Executing <Task(SparkSubmitOperator): spark.spark_transform.top_employee_by_revenue> on 2024-06-25 13:03:07.481260+00:00
+[2024-06-25T13:05:24.358+0000] {standard_task_runner.py:57} INFO - Started process 1924 to run task
+[2024-06-25T13:05:24.360+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'spark_flow', 'spark.spark_transform.top_employee_by_revenue', 'manual__2024-06-25T13:03:07.481260+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/spark_***.py', '--cfg-path', '/tmp/tmphgbtq4o4']
+[2024-06-25T13:05:24.365+0000] {standard_task_runner.py:85} INFO - Job 26: Subtask spark.spark_transform.top_employee_by_revenue
+[2024-06-25T13:05:24.431+0000] {task_command.py:415} INFO - Running <TaskInstance: spark_flow.spark.spark_transform.top_employee_by_revenue manual__2024-06-25T13:03:07.481260+00:00 [running]> on host e32126fe0c41
+[2024-06-25T13:05:24.486+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Maulana Ahmad Maliki' AIRFLOW_CTX_DAG_ID='spark_flow' AIRFLOW_CTX_TASK_ID='spark.spark_transform.top_employee_by_revenue' AIRFLOW_CTX_EXECUTION_DATE='2024-06-25T13:03:07.481260+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-25T13:03:07.481260+00:00'
+[2024-06-25T13:05:24.492+0000] {base.py:73} INFO - Using connection ID 'spark-conn' for task execution.
+[2024-06-25T13:05:24.493+0000] {spark_submit.py:401} INFO - Spark-Submit cmd: spark-submit --master spark://spark-master:7077 --driver-class-path spark/resources/jars/postgresql-42.7.3.jar --jars spark/resources/jars/postgresql-42.7.3.jar --total-executor-cores 4 --executor-cores 2 --executor-memory 2g --driver-memory 2g --name arrow-spark --deploy-mode client spark/jobs/top_employee_by_revenue.py jdbc:postgresql://postgres-staging:5432/staging_db admin admin
+[2024-06-25T13:05:24.572+0000] {spark_submit.py:571} INFO - /home/***/.local/lib/python3.11/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found
+[2024-06-25T13:05:25.573+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:25 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2024-06-25T13:05:26.234+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkContext: Running Spark version 3.5.1
+[2024-06-25T13:05:26.234+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkContext: OS info Linux, 6.4.16-linuxkit, aarch64
+[2024-06-25T13:05:26.235+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkContext: Java version 11.0.23
+[2024-06-25T13:05:26.249+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO ResourceUtils: ==============================================================
+[2024-06-25T13:05:26.249+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2024-06-25T13:05:26.249+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO ResourceUtils: ==============================================================
+[2024-06-25T13:05:26.250+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkContext: Submitted application: Top Employee by Revenue
+[2024-06-25T13:05:26.258+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 2, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2024-06-25T13:05:26.265+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO ResourceProfile: Limiting resource is cpus at 2 tasks per executor
+[2024-06-25T13:05:26.266+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2024-06-25T13:05:26.301+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SecurityManager: Changing view acls to: ***
+[2024-06-25T13:05:26.302+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SecurityManager: Changing modify acls to: ***
+[2024-06-25T13:05:26.302+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SecurityManager: Changing view acls groups to:
+[2024-06-25T13:05:26.302+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SecurityManager: Changing modify acls groups to:
+[2024-06-25T13:05:26.303+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: ***; groups with view permissions: EMPTY; users with modify permissions: ***; groups with modify permissions: EMPTY
+[2024-06-25T13:05:26.412+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO Utils: Successfully started service 'sparkDriver' on port 36479.
+[2024-06-25T13:05:26.452+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkEnv: Registering MapOutputTracker
+[2024-06-25T13:05:26.474+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkEnv: Registering BlockManagerMaster
+[2024-06-25T13:05:26.484+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2024-06-25T13:05:26.484+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2024-06-25T13:05:26.486+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2024-06-25T13:05:26.496+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-7e1bcc7f-e91d-4941-b368-b5ae12d2eaef
+[2024-06-25T13:05:26.503+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO MemoryStore: MemoryStore started with capacity 1048.8 MiB
+[2024-06-25T13:05:26.511+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkEnv: Registering OutputCommitCoordinator
+[2024-06-25T13:05:26.585+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2024-06-25T13:05:26.625+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2024-06-25T13:05:26.654+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO SparkContext: Added JAR file:///opt/***/spark/resources/jars/postgresql-42.7.3.jar at spark://e32126fe0c41:36479/jars/postgresql-42.7.3.jar with timestamp 1719320726228
+[2024-06-25T13:05:26.695+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+[2024-06-25T13:05:26.723+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO TransportClientFactory: Successfully created connection to spark-master/172.20.0.4:7077 after 14 ms (0 ms spent in bootstraps)
+[2024-06-25T13:05:26.795+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20240625130526-0008
+[2024-06-25T13:05:26.796+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20240625130526-0008/0 on worker-20240625125946-172.20.0.9-40571 (172.20.0.9:40571) with 2 core(s)
+[2024-06-25T13:05:26.796+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO StandaloneSchedulerBackend: Granted executor ID app-20240625130526-0008/0 on hostPort 172.20.0.9:40571 with 2 core(s), 2.0 GiB RAM
+[2024-06-25T13:05:26.797+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20240625130526-0008/1 on worker-20240625125945-172.20.0.8-41453 (172.20.0.8:41453) with 2 core(s)
+[2024-06-25T13:05:26.798+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO StandaloneSchedulerBackend: Granted executor ID app-20240625130526-0008/1 on hostPort 172.20.0.8:41453 with 2 core(s), 2.0 GiB RAM
+[2024-06-25T13:05:26.813+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35483.
+[2024-06-25T13:05:26.814+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO NettyBlockTransferService: Server created on e32126fe0c41:35483
+[2024-06-25T13:05:26.817+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2024-06-25T13:05:26.832+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, e32126fe0c41, 35483, None)
+[2024-06-25T13:05:26.835+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO BlockManagerMasterEndpoint: Registering block manager e32126fe0c41:35483 with 1048.8 MiB RAM, BlockManagerId(driver, e32126fe0c41, 35483, None)
+[2024-06-25T13:05:26.838+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, e32126fe0c41, 35483, None)
+[2024-06-25T13:05:26.839+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, e32126fe0c41, 35483, None)
+[2024-06-25T13:05:26.912+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20240625130526-0008/0 is now RUNNING
+[2024-06-25T13:05:26.915+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:26 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20240625130526-0008/1 is now RUNNING
+[2024-06-25T13:05:27.453+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:27 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+[2024-06-25T13:05:27.848+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:27 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2024-06-25T13:05:27.852+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:27 INFO SharedState: Warehouse path is 'file:/opt/***/spark-warehouse'.
+[2024-06-25T13:05:29.945+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:29 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.20.0.9:53510) with ID 0,  ResourceProfileId 0
+[2024-06-25T13:05:29.982+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:29 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.20.0.8:47646) with ID 1,  ResourceProfileId 0
+[2024-06-25T13:05:30.058+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:30 INFO BlockManagerMasterEndpoint: Registering block manager 172.20.0.8:36747 with 1048.8 MiB RAM, BlockManagerId(1, 172.20.0.8, 36747, None)
+[2024-06-25T13:05:30.081+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:30 INFO BlockManagerMasterEndpoint: Registering block manager 172.20.0.9:46135 with 1048.8 MiB RAM, BlockManagerId(0, 172.20.0.9, 46135, None)
+[2024-06-25T13:05:32.007+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO CodeGenerator: Code generated in 127.989541 ms
+[2024-06-25T13:05:32.051+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Registering RDD 4 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) as input to shuffle 0
+[2024-06-25T13:05:32.057+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO CodeGenerator: Code generated in 10.502541 ms
+[2024-06-25T13:05:32.059+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Got map stage job 0 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:32.060+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Final stage: ShuffleMapStage 0 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:32.060+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Parents of final stage: List()
+[2024-06-25T13:05:32.062+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:32.071+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Submitting ShuffleMapStage 0 (MapPartitionsRDD[4] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:32.089+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO CodeGenerator: Code generated in 25.424042 ms
+[2024-06-25T13:05:32.169+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 14.7 KiB, free 1048.8 MiB)
+[2024-06-25T13:05:32.196+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 7.6 KiB, free 1048.8 MiB)
+[2024-06-25T13:05:32.198+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on e32126fe0c41:35483 (size: 7.6 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:32.200+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:32.208+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[4] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:32.209+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:32.215+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Registering RDD 6 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) as input to shuffle 1
+[2024-06-25T13:05:32.216+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Got map stage job 1 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:32.216+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Final stage: ShuffleMapStage 1 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:32.216+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Parents of final stage: List()
+[2024-06-25T13:05:32.216+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:32.217+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Submitting ShuffleMapStage 1 (MapPartitionsRDD[6] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:32.221+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 15.2 KiB, free 1048.8 MiB)
+[2024-06-25T13:05:32.230+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 7.8 KiB, free 1048.8 MiB)
+[2024-06-25T13:05:32.232+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on e32126fe0c41:35483 (size: 7.8 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:32.234+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:32.235+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (172.20.0.8, executor 1, partition 0, PROCESS_LOCAL, 7634 bytes)
+[2024-06-25T13:05:32.254+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[6] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:32.280+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:32.291+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Registering RDD 8 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) as input to shuffle 2
+[2024-06-25T13:05:32.294+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Got map stage job 2 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:32.296+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Final stage: ShuffleMapStage 2 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:32.297+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Parents of final stage: List()
+[2024-06-25T13:05:32.297+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:32.298+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Submitting ShuffleMapStage 2 (MapPartitionsRDD[8] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:32.308+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 14.9 KiB, free 1048.7 MiB)
+[2024-06-25T13:05:32.309+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (172.20.0.8, executor 1, partition 0, PROCESS_LOCAL, 7634 bytes)
+[2024-06-25T13:05:32.311+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 7.7 KiB, free 1048.7 MiB)
+[2024-06-25T13:05:32.313+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on e32126fe0c41:35483 (size: 7.7 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:32.314+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:32.315+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 2 (MapPartitionsRDD[8] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:32.316+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:32.317+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2) (172.20.0.9, executor 0, partition 0, PROCESS_LOCAL, 7634 bytes)
+[2024-06-25T13:05:32.584+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 172.20.0.8:36747 (size: 7.8 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:32.586+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 172.20.0.8:36747 (size: 7.6 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:32.605+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:32 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 172.20.0.9:46135 (size: 7.7 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:33.271+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 954 ms on 172.20.0.9 (executor 0) (1/1)
+[2024-06-25T13:05:33.273+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:33.279+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: ShuffleMapStage 2 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 0.980 s
+[2024-06-25T13:05:33.283+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: looking for newly runnable stages
+[2024-06-25T13:05:33.284+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: running: Set(ShuffleMapStage 0, ShuffleMapStage 1)
+[2024-06-25T13:05:33.285+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: waiting: Set()
+[2024-06-25T13:05:33.285+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: failed: Set()
+[2024-06-25T13:05:33.426+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 1118 ms on 172.20.0.8 (executor 1) (1/1)
+[2024-06-25T13:05:33.427+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:33.428+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: ShuffleMapStage 1 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 1.210 s
+[2024-06-25T13:05:33.428+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: looking for newly runnable stages
+[2024-06-25T13:05:33.429+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: running: Set(ShuffleMapStage 0)
+[2024-06-25T13:05:33.430+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: waiting: Set()
+[2024-06-25T13:05:33.430+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: failed: Set()
+[2024-06-25T13:05:33.523+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO ShufflePartitionsUtil: For shuffle(1), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-06-25T13:05:33.628+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1409 ms on 172.20.0.8 (executor 1) (1/1)
+[2024-06-25T13:05:33.632+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: ShuffleMapStage 0 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 1.538 s
+[2024-06-25T13:05:33.633+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: looking for newly runnable stages
+[2024-06-25T13:05:33.634+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: running: Set()
+[2024-06-25T13:05:33.634+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: waiting: Set()
+[2024-06-25T13:05:33.635+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: failed: Set()
+[2024-06-25T13:05:33.636+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:33.650+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO SparkContext: Starting job: toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54
+[2024-06-25T13:05:33.662+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: Got job 3 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:33.663+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: Final stage: ResultStage 4 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:33.664+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 3)
+[2024-06-25T13:05:33.665+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:33.670+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: Submitting ResultStage 4 (MapPartitionsRDD[10] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:33.677+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 8.2 KiB, free 1048.7 MiB)
+[2024-06-25T13:05:33.681+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 4.2 KiB, free 1048.7 MiB)
+[2024-06-25T13:05:33.682+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on e32126fe0c41:35483 (size: 4.2 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:33.682+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:33.684+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 4 (MapPartitionsRDD[10] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:33.684+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSchedulerImpl: Adding task set 4.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:33.690+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 3) (172.20.0.8, executor 1, partition 0, NODE_LOCAL, 7818 bytes)
+[2024-06-25T13:05:33.709+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 172.20.0.8:36747 (size: 4.2 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:33.757+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 172.20.0.8:47646
+[2024-06-25T13:05:33.825+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 3) in 137 ms on 172.20.0.8 (executor 1) (1/1)
+[2024-06-25T13:05:33.827+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:33.827+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: ResultStage 4 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 0.151 s
+[2024-06-25T13:05:33.828+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: Job 3 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-06-25T13:05:33.829+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO TaskSchedulerImpl: Killing all running tasks in stage 4: Stage finished
+[2024-06-25T13:05:33.829+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO DAGScheduler: Job 3 finished: toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54, took 0.178883 s
+[2024-06-25T13:05:33.877+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO CodeGenerator: Code generated in 31.078125 ms
+[2024-06-25T13:05:33.892+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 49.6 KiB, free 1048.7 MiB)
+[2024-06-25T13:05:33.893+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on e32126fe0c41:35483 (size: 49.6 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:33.894+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO SparkContext: Created broadcast 4 from toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54
+[2024-06-25T13:05:33.909+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO ShufflePartitionsUtil: For shuffle(0), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-06-25T13:05:33.923+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:33 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2024-06-25T13:05:34.070+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO CodeGenerator: Code generated in 105.695208 ms
+[2024-06-25T13:05:34.076+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Removed broadcast_2_piece0 on e32126fe0c41:35483 in memory (size: 7.7 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.111+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 172.20.0.9:46135 in memory (size: 7.7 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:34.122+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Removed broadcast_3_piece0 on e32126fe0c41:35483 in memory (size: 4.2 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.127+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 172.20.0.8:36747 in memory (size: 4.2 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:34.134+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Removed broadcast_1_piece0 on e32126fe0c41:35483 in memory (size: 7.8 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.136+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Registering RDD 13 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) as input to shuffle 3
+[2024-06-25T13:05:34.137+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Got map stage job 4 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:34.137+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Final stage: ShuffleMapStage 6 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:34.138+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 5)
+[2024-06-25T13:05:34.138+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:34.141+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Submitting ShuffleMapStage 6 (MapPartitionsRDD[13] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:34.141+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 172.20.0.8:36747 in memory (size: 7.8 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:34.144+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 57.8 KiB, free 1048.7 MiB)
+[2024-06-25T13:05:34.146+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 25.6 KiB, free 1048.6 MiB)
+[2024-06-25T13:05:34.147+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on e32126fe0c41:35483 (size: 25.6 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.147+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:34.148+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 6 (MapPartitionsRDD[13] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:34.148+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSchedulerImpl: Adding task set 6.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:34.149+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 4) (172.20.0.8, executor 1, partition 0, NODE_LOCAL, 7807 bytes)
+[2024-06-25T13:05:34.152+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Removed broadcast_0_piece0 on e32126fe0c41:35483 in memory (size: 7.6 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.155+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 172.20.0.8:36747 in memory (size: 7.6 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:34.175+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 172.20.0.8:36747 (size: 25.6 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:34.251+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 172.20.0.8:47646
+[2024-06-25T13:05:34.287+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 172.20.0.8:36747 (size: 49.6 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.473+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 4) in 324 ms on 172.20.0.8 (executor 1) (1/1)
+[2024-06-25T13:05:34.474+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:34.475+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: ShuffleMapStage 6 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 0.334 s
+[2024-06-25T13:05:34.476+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: looking for newly runnable stages
+[2024-06-25T13:05:34.477+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: running: Set()
+[2024-06-25T13:05:34.477+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: waiting: Set()
+[2024-06-25T13:05:34.478+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: failed: Set()
+[2024-06-25T13:05:34.487+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO ShufflePartitionsUtil: For shuffle(3), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-06-25T13:05:34.501+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+[2024-06-25T13:05:34.545+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO CodeGenerator: Code generated in 37.374417 ms
+[2024-06-25T13:05:34.569+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Registering RDD 17 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) as input to shuffle 4
+[2024-06-25T13:05:34.570+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Got map stage job 5 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:34.571+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Final stage: ShuffleMapStage 9 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:34.571+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 8)
+[2024-06-25T13:05:34.571+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:34.572+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Submitting ShuffleMapStage 9 (MapPartitionsRDD[17] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:34.611+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 65.4 KiB, free 1048.6 MiB)
+[2024-06-25T13:05:34.613+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 28.9 KiB, free 1048.6 MiB)
+[2024-06-25T13:05:34.614+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on e32126fe0c41:35483 (size: 28.9 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.614+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO SparkContext: Created broadcast 6 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:34.615+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 9 (MapPartitionsRDD[17] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:34.615+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSchedulerImpl: Adding task set 9.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:34.616+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSetManager: Starting task 0.0 in stage 9.0 (TID 5) (172.20.0.8, executor 1, partition 0, NODE_LOCAL, 7788 bytes)
+[2024-06-25T13:05:34.628+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 172.20.0.8:36747 (size: 28.9 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.656+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 3 to 172.20.0.8:47646
+[2024-06-25T13:05:34.809+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSetManager: Finished task 0.0 in stage 9.0 (TID 5) in 192 ms on 172.20.0.8 (executor 1) (1/1)
+[2024-06-25T13:05:34.816+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSchedulerImpl: Removed TaskSet 9.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:34.817+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: ShuffleMapStage 9 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 0.226 s
+[2024-06-25T13:05:34.820+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: looking for newly runnable stages
+[2024-06-25T13:05:34.822+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: running: Set()
+[2024-06-25T13:05:34.823+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: waiting: Set()
+[2024-06-25T13:05:34.823+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: failed: Set()
+[2024-06-25T13:05:34.860+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO ShufflePartitionsUtil: For shuffle(4), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-06-25T13:05:34.899+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO CodeGenerator: Code generated in 10.128958 ms
+[2024-06-25T13:05:34.912+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO CodeGenerator: Code generated in 7.552917 ms
+[2024-06-25T13:05:34.938+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO SparkContext: Starting job: toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54
+[2024-06-25T13:05:34.939+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Got job 6 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:34.939+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Final stage: ResultStage 13 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:34.940+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 12)
+[2024-06-25T13:05:34.940+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:34.940+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Submitting ResultStage 13 (MapPartitionsRDD[23] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:34.944+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 67.3 KiB, free 1048.5 MiB)
+[2024-06-25T13:05:34.946+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 29.6 KiB, free 1048.5 MiB)
+[2024-06-25T13:05:34.946+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on e32126fe0c41:35483 (size: 29.6 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.946+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:34.947+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 13 (MapPartitionsRDD[23] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:34.947+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSchedulerImpl: Adding task set 13.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:34.948+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO TaskSetManager: Starting task 0.0 in stage 13.0 (TID 6) (172.20.0.8, executor 1, partition 0, NODE_LOCAL, 7799 bytes)
+[2024-06-25T13:05:34.967+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 172.20.0.8:36747 (size: 29.6 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:34.996+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:34 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 4 to 172.20.0.8:47646
+[2024-06-25T13:05:35.105+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSetManager: Finished task 0.0 in stage 13.0 (TID 6) in 157 ms on 172.20.0.8 (executor 1) (1/1)
+[2024-06-25T13:05:35.110+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Removed TaskSet 13.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:35.111+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: ResultStage 13 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 0.167 s
+[2024-06-25T13:05:35.114+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Job 6 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-06-25T13:05:35.115+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Killing all running tasks in stage 13: Stage finished
+[2024-06-25T13:05:35.115+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Job 6 finished: toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54, took 0.172271 s
+[2024-06-25T13:05:35.129+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO CodeGenerator: Code generated in 9.956 ms
+[2024-06-25T13:05:35.131+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 847.0 B, free 1048.5 MiB)
+[2024-06-25T13:05:35.132+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on e32126fe0c41:35483 (size: 847.0 B, free: 1048.7 MiB)
+[2024-06-25T13:05:35.133+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO SparkContext: Created broadcast 8 from toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54
+[2024-06-25T13:05:35.138+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO ShufflePartitionsUtil: For shuffle(2), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-06-25T13:05:35.169+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO CodeGenerator: Code generated in 17.88925 ms
+[2024-06-25T13:05:35.193+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO CodeGenerator: Code generated in 10.670208 ms
+[2024-06-25T13:05:35.210+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO SparkContext: Starting job: toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54
+[2024-06-25T13:05:35.211+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Got job 7 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:35.211+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Final stage: ResultStage 15 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:35.211+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 14)
+[2024-06-25T13:05:35.212+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:35.212+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Submitting ResultStage 15 (MapPartitionsRDD[28] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:35.213+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 18.5 KiB, free 1048.5 MiB)
+[2024-06-25T13:05:35.215+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 8.7 KiB, free 1048.5 MiB)
+[2024-06-25T13:05:35.216+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on e32126fe0c41:35483 (size: 8.7 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:35.216+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:35.216+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 15 (MapPartitionsRDD[28] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:35.217+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Adding task set 15.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:35.217+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSetManager: Starting task 0.0 in stage 15.0 (TID 7) (172.20.0.9, executor 0, partition 0, NODE_LOCAL, 7818 bytes)
+[2024-06-25T13:05:35.270+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 172.20.0.9:46135 (size: 8.7 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:35.329+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 2 to 172.20.0.9:53510
+[2024-06-25T13:05:35.391+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 172.20.0.9:46135 (size: 847.0 B, free: 1048.8 MiB)
+[2024-06-25T13:05:35.494+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSetManager: Finished task 0.0 in stage 15.0 (TID 7) in 272 ms on 172.20.0.9 (executor 0) (1/1)
+[2024-06-25T13:05:35.499+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Removed TaskSet 15.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:35.502+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: ResultStage 15 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 0.289 s
+[2024-06-25T13:05:35.505+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Job 7 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-06-25T13:05:35.505+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Killing all running tasks in stage 15: Stage finished
+[2024-06-25T13:05:35.508+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Job 7 finished: toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54, took 0.295714 s
+[2024-06-25T13:05:35.529+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Registering RDD 29 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) as input to shuffle 5
+[2024-06-25T13:05:35.529+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Got map stage job 8 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:35.530+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Final stage: ShuffleMapStage 17 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:35.530+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 16)
+[2024-06-25T13:05:35.531+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:35.531+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Submitting ShuffleMapStage 17 (MapPartitionsRDD[29] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:35.540+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 21.3 KiB, free 1048.4 MiB)
+[2024-06-25T13:05:35.543+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 9.6 KiB, free 1048.4 MiB)
+[2024-06-25T13:05:35.544+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on e32126fe0c41:35483 (size: 9.6 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:35.545+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO SparkContext: Created broadcast 10 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:35.545+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 17 (MapPartitionsRDD[29] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:35.545+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Adding task set 17.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:35.547+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSetManager: Starting task 0.0 in stage 17.0 (TID 8) (172.20.0.9, executor 0, partition 0, NODE_LOCAL, 7807 bytes)
+[2024-06-25T13:05:35.559+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on 172.20.0.9:46135 (size: 9.6 KiB, free: 1048.8 MiB)
+[2024-06-25T13:05:35.615+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSetManager: Finished task 0.0 in stage 17.0 (TID 8) in 69 ms on 172.20.0.9 (executor 0) (1/1)
+[2024-06-25T13:05:35.615+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Removed TaskSet 17.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:35.616+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: ShuffleMapStage 17 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 0.085 s
+[2024-06-25T13:05:35.618+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: looking for newly runnable stages
+[2024-06-25T13:05:35.618+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: running: Set()
+[2024-06-25T13:05:35.619+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: waiting: Set()
+[2024-06-25T13:05:35.619+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: failed: Set()
+[2024-06-25T13:05:35.625+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO ShufflePartitionsUtil: For shuffle(5), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+[2024-06-25T13:05:35.659+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO CodeGenerator: Code generated in 9.625459 ms
+[2024-06-25T13:05:35.684+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO SparkContext: Starting job: toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54
+[2024-06-25T13:05:35.685+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Got job 9 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) with 1 output partitions
+[2024-06-25T13:05:35.685+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Final stage: ResultStage 20 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54)
+[2024-06-25T13:05:35.686+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 19)
+[2024-06-25T13:05:35.686+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Missing parents: List()
+[2024-06-25T13:05:35.687+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Submitting ResultStage 20 (MapPartitionsRDD[32] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54), which has no missing parents
+[2024-06-25T13:05:35.689+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 75.9 KiB, free 1048.4 MiB)
+[2024-06-25T13:05:35.691+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 33.2 KiB, free 1048.3 MiB)
+[2024-06-25T13:05:35.692+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on e32126fe0c41:35483 (size: 33.2 KiB, free: 1048.6 MiB)
+[2024-06-25T13:05:35.692+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO SparkContext: Created broadcast 11 from broadcast at DAGScheduler.scala:1585
+[2024-06-25T13:05:35.692+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 20 (MapPartitionsRDD[32] at toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) (first 15 tasks are for partitions Vector(0))
+[2024-06-25T13:05:35.693+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Adding task set 20.0 with 1 tasks resource profile 0
+[2024-06-25T13:05:35.693+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSetManager: Starting task 0.0 in stage 20.0 (TID 9) (172.20.0.9, executor 0, partition 0, NODE_LOCAL, 7799 bytes)
+[2024-06-25T13:05:35.703+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on 172.20.0.9:46135 (size: 33.2 KiB, free: 1048.7 MiB)
+[2024-06-25T13:05:35.877+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 5 to 172.20.0.9:53510
+[2024-06-25T13:05:35.994+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSetManager: Finished task 0.0 in stage 20.0 (TID 9) in 301 ms on 172.20.0.9 (executor 0) (1/1)
+[2024-06-25T13:05:35.995+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Removed TaskSet 20.0, whose tasks have all completed, from pool
+[2024-06-25T13:05:35.996+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: ResultStage 20 (toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54) finished in 0.308 s
+[2024-06-25T13:05:35.998+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Job 9 is finished. Cancelling potential speculative or zombie tasks for this job
+[2024-06-25T13:05:35.999+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO TaskSchedulerImpl: Killing all running tasks in stage 20: Stage finished
+[2024-06-25T13:05:35.999+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:35 INFO DAGScheduler: Job 9 finished: toPandas at /opt/***/spark/jobs/top_employee_by_revenue.py:54, took 0.312880 s
+[2024-06-25T13:05:36.079+0000] {spark_submit.py:571} INFO - Data successfully written to output/dm_top_employee_by_revenue.csv
+[2024-06-25T13:05:36.086+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2024-06-25T13:05:36.104+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO SparkUI: Stopped Spark web UI at http://e32126fe0c41:4040
+[2024-06-25T13:05:36.111+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO StandaloneSchedulerBackend: Shutting down all executors
+[2024-06-25T13:05:36.112+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Asking each executor to shut down
+[2024-06-25T13:05:36.143+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2024-06-25T13:05:36.219+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO MemoryStore: MemoryStore cleared
+[2024-06-25T13:05:36.222+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO BlockManager: BlockManager stopped
+[2024-06-25T13:05:36.233+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2024-06-25T13:05:36.241+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2024-06-25T13:05:36.270+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO SparkContext: Successfully stopped SparkContext
+[2024-06-25T13:05:36.750+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO ShutdownHookManager: Shutdown hook called
+[2024-06-25T13:05:36.751+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO ShutdownHookManager: Deleting directory /tmp/spark-924f8191-2096-4cbe-a0d6-0119676c5742
+[2024-06-25T13:05:36.755+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO ShutdownHookManager: Deleting directory /tmp/spark-64671e6f-cae1-4bd3-9903-22497da51cff
+[2024-06-25T13:05:36.758+0000] {spark_submit.py:571} INFO - 24/06/25 13:05:36 INFO ShutdownHookManager: Deleting directory /tmp/spark-64671e6f-cae1-4bd3-9903-22497da51cff/pyspark-7cab8f07-f4c1-4552-b6f7-78ac7859d064
+[2024-06-25T13:05:36.845+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=spark_flow, task_id=spark.spark_transform.top_employee_by_revenue, execution_date=20240625T130307, start_date=20240625T130524, end_date=20240625T130536
+[2024-06-25T13:05:36.905+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-06-25T13:05:36.961+0000] {taskinstance.py:2776} INFO - 9 downstream tasks scheduled from follow-on schedule check

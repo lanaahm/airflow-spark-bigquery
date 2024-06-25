@@ -1,0 +1,180 @@
+[2024-06-25T12:59:59.449+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T12:59:59.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T12:59:59.467+0000] {logging_mixin.py:151} INFO - [2024-06-25T12:59:59.465+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T12:59:59.541+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T12:59:59.764+0000] {logging_mixin.py:151} INFO - [2024-06-25T12:59:59.764+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-06-25T12:59:59.769+0000] {logging_mixin.py:151} INFO - [2024-06-25T12:59:59.769+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-06-25T12:59:59.773+0000] {logging_mixin.py:151} INFO - [2024-06-25T12:59:59.773+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-06-25T12:59:59.774+0000] {logging_mixin.py:151} INFO - [2024-06-25T12:59:59.774+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:gcp_task' as access control is unset.
+[2024-06-25T12:59:59.775+0000] {logging_mixin.py:151} INFO - [2024-06-25T12:59:59.774+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T12:59:59.787+0000] {logging_mixin.py:151} INFO - [2024-06-25T12:59:59.787+0000] {dag.py:2937} INFO - Creating ORM DAG for gcp_task
+[2024-06-25T12:59:59.795+0000] {logging_mixin.py:151} INFO - [2024-06-25T12:59:59.795+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T12:59:59.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.375 seconds
+[2024-06-25T13:00:30.310+0000] {processor.py:157} INFO - Started process (PID=193) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:00:30.312+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:00:30.335+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:00:30.334+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:00:30.426+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:00:30.521+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:00:30.520+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:00:30.573+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:00:30.572+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:00:30.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.342 seconds
+[2024-06-25T13:01:01.242+0000] {processor.py:157} INFO - Started process (PID=208) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:01:01.245+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:01:01.286+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:01:01.281+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:01:01.396+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:01:01.572+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:01:01.570+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:01:01.683+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:01:01.683+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:01:01.716+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.497 seconds
+[2024-06-25T13:01:32.240+0000] {processor.py:157} INFO - Started process (PID=223) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:01:32.242+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:01:32.246+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:01:32.245+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:01:32.267+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:01:32.325+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:01:32.324+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:01:32.381+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:01:32.380+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:01:32.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.165 seconds
+[2024-06-25T13:02:02.962+0000] {processor.py:157} INFO - Started process (PID=238) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:02:02.963+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:02:02.966+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:02:02.966+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:02:03.008+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:02:03.043+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:02:03.043+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:02:03.070+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:02:03.069+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:02:03.080+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.121 seconds
+[2024-06-25T13:02:33.668+0000] {processor.py:157} INFO - Started process (PID=253) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:02:33.668+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:02:33.671+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:02:33.670+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:02:33.700+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:02:33.745+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:02:33.744+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:02:33.764+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:02:33.764+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:02:33.797+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.132 seconds
+[2024-06-25T13:03:04.465+0000] {processor.py:157} INFO - Started process (PID=268) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:03:04.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:03:04.489+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:03:04.485+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:03:04.605+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:03:04.686+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:03:04.685+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:03:04.727+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:03:04.726+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:03:04.743+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.293 seconds
+[2024-06-25T13:03:35.191+0000] {processor.py:157} INFO - Started process (PID=341) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:03:35.192+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:03:35.196+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:03:35.195+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:03:35.231+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:03:35.258+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:03:35.258+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:03:35.273+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:03:35.273+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:03:35.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.095 seconds
+[2024-06-25T13:04:06.101+0000] {processor.py:157} INFO - Started process (PID=651) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:04:06.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:04:06.120+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:04:06.117+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:04:06.209+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:04:06.298+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:04:06.298+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:04:06.345+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:04:06.345+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:04:06.374+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.280 seconds
+[2024-06-25T13:04:37.023+0000] {processor.py:157} INFO - Started process (PID=1093) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:04:37.025+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:04:37.035+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:04:37.034+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:04:37.068+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:04:37.117+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:04:37.116+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:04:37.152+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:04:37.152+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:04:37.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.156 seconds
+[2024-06-25T13:05:08.053+0000] {processor.py:157} INFO - Started process (PID=1610) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:05:08.059+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:05:08.081+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:05:08.079+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:05:08.341+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:05:08.703+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:05:08.700+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:05:08.742+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:05:08.742+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:05:08.771+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.739 seconds
+[2024-06-25T13:05:40.306+0000] {processor.py:157} INFO - Started process (PID=2159) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:05:40.330+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:05:40.347+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:05:40.342+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:05:40.799+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:05:41.008+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:05:41.002+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:05:41.112+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:05:41.111+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:05:41.162+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.915 seconds
+[2024-06-25T13:06:12.447+0000] {processor.py:157} INFO - Started process (PID=2232) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:06:12.452+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:06:12.465+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:06:12.462+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:06:12.570+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:06:12.676+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:06:12.676+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:06:12.716+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:06:12.715+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:06:12.731+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.319 seconds
+[2024-06-25T13:06:42.904+0000] {processor.py:157} INFO - Started process (PID=2249) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:06:42.905+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:06:42.909+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:06:42.908+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:06:42.953+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:06:42.995+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:06:42.994+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:06:43.031+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:06:43.031+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:06:43.051+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.152 seconds
+[2024-06-25T13:07:13.419+0000] {processor.py:157} INFO - Started process (PID=2264) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:07:13.423+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:07:13.431+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:07:13.430+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:07:13.460+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:07:13.516+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:07:13.516+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:07:13.555+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:07:13.555+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:07:13.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.171 seconds
+[2024-06-25T13:07:43.904+0000] {processor.py:157} INFO - Started process (PID=2279) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:07:43.906+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:07:43.913+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:07:43.912+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:07:43.955+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:07:44.008+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:07:44.007+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:07:44.028+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:07:44.028+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:07:44.051+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.153 seconds
+[2024-06-25T13:08:14.443+0000] {processor.py:157} INFO - Started process (PID=2294) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:08:14.445+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:08:14.451+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:08:14.450+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:08:14.496+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:08:14.532+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:08:14.531+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:08:14.558+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:08:14.558+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:08:14.572+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.139 seconds
+[2024-06-25T13:08:45.015+0000] {processor.py:157} INFO - Started process (PID=2309) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:08:45.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:08:45.020+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:08:45.019+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:08:45.063+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:08:45.102+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:08:45.102+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:08:45.130+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:08:45.130+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:08:45.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.132 seconds
+[2024-06-25T13:09:15.608+0000] {processor.py:157} INFO - Started process (PID=2324) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:09:15.609+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:09:15.619+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:09:15.616+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:09:15.686+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:09:15.748+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:09:15.748+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:09:15.782+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:09:15.782+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:09:15.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.192 seconds
+[2024-06-25T13:09:46.348+0000] {processor.py:157} INFO - Started process (PID=2339) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:09:46.351+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:09:46.361+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:09:46.360+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:09:46.391+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:09:46.439+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:09:46.439+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:09:46.463+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:09:46.462+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:09:46.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.145 seconds
+[2024-06-25T13:10:16.971+0000] {processor.py:157} INFO - Started process (PID=2354) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:10:16.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:10:16.977+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:10:16.976+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:10:17.014+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:10:17.059+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:10:17.059+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:10:17.085+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:10:17.084+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:10:17.101+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.135 seconds
+[2024-06-25T13:10:47.616+0000] {processor.py:157} INFO - Started process (PID=2369) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:10:47.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:10:47.623+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:10:47.622+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:10:47.662+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:10:47.716+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:10:47.716+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:10:47.736+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:10:47.736+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:10:47.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.149 seconds
+[2024-06-25T13:11:18.189+0000] {processor.py:157} INFO - Started process (PID=2384) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:11:18.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:11:18.196+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:11:18.195+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:11:18.243+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:11:18.290+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:11:18.290+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:11:18.322+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:11:18.322+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:11:18.335+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.151 seconds
+[2024-06-25T13:11:48.715+0000] {processor.py:157} INFO - Started process (PID=2399) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:11:48.718+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:11:48.729+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:11:48.726+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:11:48.759+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:11:48.803+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:11:48.803+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:11:48.822+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:11:48.822+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:11:48.834+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.124 seconds
+[2024-06-25T13:12:19.458+0000] {processor.py:157} INFO - Started process (PID=2414) to work on /opt/airflow/dags/gcp.py
+[2024-06-25T13:12:19.460+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/gcp.py for tasks to queue
+[2024-06-25T13:12:19.465+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:12:19.464+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/gcp.py
+[2024-06-25T13:12:19.544+0000] {processor.py:839} INFO - DAG(s) dict_keys(['gcp_task']) retrieved from /opt/airflow/dags/gcp.py
+[2024-06-25T13:12:19.601+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:12:19.601+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-06-25T13:12:19.631+0000] {logging_mixin.py:151} INFO - [2024-06-25T13:12:19.630+0000] {dag.py:3696} INFO - Setting next_dagrun for gcp_task to 2024-06-24T00:00:00+00:00, run_after=2024-06-25T00:00:00+00:00
+[2024-06-25T13:12:19.642+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/gcp.py took 0.190 seconds
